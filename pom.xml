@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>NH_PKPORK_DEV</artifactId>
+    <artifactId>NH_PK_DEV</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
