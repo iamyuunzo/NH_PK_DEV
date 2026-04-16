@@ -69,18 +69,15 @@ public class GetToken {
 
 /*
 * Naver Commerce Example
-* https://apicenter.commerce.naver.com/docs/commerce-api/current/exchange-sellers-auth
-
- OkHttpClient client = new OkHttpClient().newBuilder()
+  OkHttpClient client = new OkHttpClient().newBuilder()
         .build();
- MediaType mediaType = MediaType.parse("application/x-www-form-urlencoded");
- RequestBody body = RequestBody.create(mediaType, "");
- Request request = new Request.Builder()
+  MediaType mediaType = MediaType.parse("application/x-www-form-urlencoded");
+  RequestBody body = RequestBody.create(mediaType, "");
+  Request request = new Request.Builder()
         .url("https://api.commerce.naver.com/external/v1/oauth2/token")
         .method("POST", body)
         .addHeader("Content-Type", "application/x-www-form-urlencoded")
         .addHeader("Accept", "application/json")
         .build();
- Response response = client.newCall(request).execute();
-
+  Response response = client.newCall(request).execute();
  */

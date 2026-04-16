@@ -29,8 +29,6 @@ public class GenerateSignature {
 
 /*
 * Naver Commerce Example
-* https://apicenter.commerce.naver.com/docs/auth#%EC%A0%84%EC%9E%90%EC%84%9C%EB%AA%85
-
   class SignatureGenerator {
     public static String generateSignature(String clientId, String clientSecret, Long timestamp) {
 
