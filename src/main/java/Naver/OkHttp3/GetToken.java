@@ -1,7 +1,7 @@
 package Naver.OkHttp3;
 
 import okhttp3.*;
-import static Naver.HttpUrlConnection.SignatureGenerator.generateSignature;
+import static Naver.OkHttp3.GenerateSignature.generateSignature;
 
 /**
  * 네이버 커머스 API용 인증 토큰 생성 (SELF 타입)

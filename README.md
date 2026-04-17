@@ -2,8 +2,6 @@
 
 ## 1. 26/04/06 ~ 26/04/17
 
-- Legacy Code : Scheduler.java -> Service.java -> Mapper.xml (MyBatis) -> DB
-
 ### (1) Naver Commerce API 🛒
 API Docs : https://apicenter.commerce.naver.com/docs/introduction
 <br>
@@ -25,3 +23,16 @@ API Docs : https://dxapi.cjlogistics.com/#default/gallery
 
 * 1️⃣ 인증토큰 (GetToken)
   * https://dxapi.cjlogistics.com/#default/apiDetails/c.restObject.API-Portal.TLE7UYX0Eest2OSq6nvrqw.-1
+
+<br>
+
+### * Service Structure
+- Legacy Code : Scheduler.java -> Service.java -> Mapper.xml (MyBatis) -> DB
+
+| learn          | Legacy                                |
+|----------------|---------------------------------------|
+| Controller     | Controller / Scheduler                |
+| Service        | Service                               |
+| Repository     | Mapper.xml / SqlSessionTemplate       |
+| DTO            | DTO / Map (HashMap<>())               |
+| Domain(Entity) | VO / DTO / Map / JsonNode / 테이블 중심 객체 |
