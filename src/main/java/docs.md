@@ -1,5 +1,13 @@
-# 🖥️ HTTP Content-Type 정리
+# 🖥️ Java에서의 외부 API 호출 방식
+```text
+1) RestTemplate
+2) OkHttp3
+3) WebClient
+4) HttpURLConnection
+5) Apache HttpClient
+```
 
+## * HTTP Content-Type 정리
 API 요청을 보낼 때 가장 먼저 확인해야 하는 것은 `Content-Type`이다.  
 이 값에 따라 요청 본문(`body`) 형식, Postman 설정 방식, OkHttp 코드 작성 방식이 달라진다.
 

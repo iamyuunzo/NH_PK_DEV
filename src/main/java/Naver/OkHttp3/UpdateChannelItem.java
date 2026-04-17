@@ -15,7 +15,7 @@ public class UpdateChannelItem {
 
     public String updateChannelItem(String token) throws Exception {
 
-        // API Dosc 그대로 작성한 버전 (안에 값 수정 가능)
+        // API Docs 그대로 작성한 버전 (안에 값 수정 가능)
         String json = """
                 {
                   "searchKeywordType": "CHANNEL_PRODUCT_NO",
