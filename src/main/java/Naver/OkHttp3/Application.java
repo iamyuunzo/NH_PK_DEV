@@ -29,8 +29,8 @@ public class Application {
             String itemResult = updateChannelItem.updateChannelItem(accessToken);
             System.out.println("상품 조회 응답: " + itemResult);
 
-            /* 3. UpdateChannelItem.java */
-            // 상품 조회 API 호출
+            /* 3. UpdateChannelOrder.java */
+            // 주문 조회 API 호출
             UpdateChannelOrder updateChannelOrder = new UpdateChannelOrder();
             String orderResult = updateChannelOrder.updateChannelOrder(accessToken);
             System.out.println("주문 조회 응답: " + orderResult);
