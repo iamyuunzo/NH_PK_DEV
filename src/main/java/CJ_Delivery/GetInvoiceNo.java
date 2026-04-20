@@ -5,7 +5,7 @@ import okhttp3.*;
 /**
  * CJ대한통운 DX API용 운송장 번호 생성 요청
  * - 인증 방식: CJ-Gateway-APIKey 헤더 사용
- * - 요청 body: DATA 객체 내부에 고객 정보와 발급받은 토큰 전달
+ * - 요청 body: DATA 객체 내부에 고객 정보와 1Day 토큰 전달
  * - EndPoint : /ReqInvcNo
  * @param token 1Day 토큰 발급 API에서 받은 TOKEN_NUM
  * @return API 응답 본문(String)
@@ -36,7 +36,10 @@ public class GetInvoiceNo {
 
         // 2. Request : 요청 생성
         Request request = new Request.Builder()
-                .url("https://dxapi.cjlogistics.com:5052/gateway/PA-P-ReqInvcNo/1.0/ReqInvcNo")
+                // API Gateway 방식
+                // .url("https://dxapi.cjlogistics.com:5052/gateway/PA-P-ReqInvcNo/1.0/ReqInvcNo")
+                // Gateway 경로 없이 Direct로 호출하는 방식 (개발 URL)
+                .url("https://dxapi.cjlogistics.com:5054/ReqInvcNo")
                 .method("POST", body)
                 .addHeader("Content-Type", "application/json")
                 .addHeader("Accept", "application/json")

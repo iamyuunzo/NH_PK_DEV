@@ -35,7 +35,10 @@ public class GetToken {
 
         // 2. Request : 요청 생성
         Request request = new Request.Builder()
-                .url("https://dxapi.cjlogistics.com:5052/gateway/PA-P-ReqOneDayToken/1.0/ReqOneDayToken")
+                // API Gateway 방식
+                // .url("https://dxapi.cjlogistics.com:5052/gateway/PA-P-ReqOneDayToken/1.0/ReqOneDayToken")
+                // Gateway 경로 없이 Direct로 호출하는 방식 (개발 URL)
+                .url("https://dxapi.cjlogistics.com:5054/ReqOneDayToken")
                 .method("POST", body)
                 .addHeader("Content-Type", "application/json")
                 .addHeader("Accept", "application/json")
