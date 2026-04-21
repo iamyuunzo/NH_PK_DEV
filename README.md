@@ -20,6 +20,8 @@ API Docs : https://apicenter.commerce.naver.com/docs/introduction
   * https://apicenter.commerce.naver.com/docs/commerce-api/current/search-product
 * 4️⃣ 상품 주문 조회 (UpdateChannelOrder)
   * https://apicenter.commerce.naver.com/docs/commerce-api/current/seller-get-product-orders-with-conditions-pay-order-seller
+* 5️⃣ 발송 처리 (UpdateInvoiceNo)
+  * https://apicenter.commerce.naver.com/docs/commerce-api/current/seller-dispatch-product-orders-pay-order-seller
 
 <br>
 
