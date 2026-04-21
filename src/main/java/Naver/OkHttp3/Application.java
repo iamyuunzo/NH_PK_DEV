@@ -35,6 +35,12 @@ public class Application {
             String orderResult = updateChannelOrder.updateChannelOrder(accessToken);
             System.out.println("주문 조회 응답: " + orderResult);
 
+            /* 4. UpdateInvoiceNo.java */
+            // 발송 처리 API 호출
+            UpdateInvoiceNo updateInvoiceNo = new UpdateInvoiceNo();
+            String invcResult = updateInvoiceNo.updateInvoiceNo(accessToken);
+            System.out.println("발송 처리 응답: " + invcResult);
+
         } catch (Exception e) {
             e.printStackTrace();
         }
