@@ -14,7 +14,7 @@ public class RegBook {
     // 재사용 가능한 OkHttpClient
     private final OkHttpClient client = new OkHttpClient();
 
-    public String regBook() throws Exception {
+    public String regBook(String token, String invcNo) throws Exception {
 
         // API Docs 그대로 작성 (Eclipse에서 사용한 Field만)
         String json = """
