@@ -1,4 +1,4 @@
-package CJ_Delivery;
+package CJ_Delivery.OkHttp3;
 
 // 1. 1Day 토큰 발급
 // 2. 발급된 토큰으로 운송장 번호 생성
