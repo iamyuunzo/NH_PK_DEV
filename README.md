@@ -2,6 +2,11 @@
 
 ## 1. 26/04/06 ~ 26/04/17
 - API 호출 방식 : OkHttp3 Library 방식으로 통일
+- <details>
+   <summary>Postman Test 진행</summary>
+   <img width="255" height="630" alt="image" src="https://github.com/user-attachments/assets/4f8ab7aa-1bc7-4f78-96b0-9ccdb486b2d7" />
+ </details>
+
 
 ### (1) Naver Commerce API 🛒
 API Docs : https://apicenter.commerce.naver.com/docs/introduction
